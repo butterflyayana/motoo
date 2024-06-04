@@ -1,0 +1,32 @@
+.filter-button{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 47px;
+}
+.filter-button select {
+    outline: none;
+    height: 33px;
+    width: 178px;
+}
+.category-2 {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.c-left {
+    width: 301px;
+    border: 1px solid rgb(92, 73, 232);
+    height: 500px;
+}
+.c-right {
+    flex-grow: 1;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+.p-card {
+    border-radius: 3px;
+}

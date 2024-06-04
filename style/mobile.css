@@ -1,0 +1,54 @@
+
+@media (max-width:768px) {
+    .container {
+        width: 320px;
+    }
+    header{
+        justify-content: space-around;
+    }
+    .header__top-menu, 
+    .logo,
+    .header__address {
+        display: none;
+    }
+    .header__logo {
+        margin-right: 35px;
+    }
+    .header__burger {
+        display: block;
+    }
+    .header__bottom nav{
+        margin-top: 0;
+        overflow: scroll;
+        margin-bottom: 25px;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .know {
+        width: 320px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .main-promo{
+        width: 320px;
+        width: 80%;
+        margin-left: 2rem;
+    }
+    .lee{
+        width: 252px;
+    }
+    .search-tab ul{
+        margin-top: 0;
+        overflow: scroll;
+        margin-bottom: 25px;
+    }
+    .box{
+        width: 320px;
+        width: 100%;
+    }
+    .p-card {
+        width: 270px;
+        width: 100%;
+    }
+}

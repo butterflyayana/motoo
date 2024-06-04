@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/category.css">
+    <link rel="stylesheet" href="../style/sty.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <div class="header__burger">
+            <img src="../images/svg/burger.svg" alt="">
+        </div>
+        <div class="header__top-menu">
+            <h3>Магазины</h3>
+            <h3>Акции</h3>
+            <h3>Доставка и оплата</h3>
+        </div>
+        <div class="header__logo">
+            <img class="logo" src="../images/svg/logo.svg" alt="">
+            <h3>Drive Moto</h3>
+        </div>
+        <div class="header__address">
+            <h3><span> <img src="../images/svg/location.svg" alt=""> </span> Москва, ул. Науки 25 </h3>
+        </div>
+        <div class="header__right">
+            <div>
+                <img src="../images/svg/heart.svg" alt="heart icon">
+            </div>
+            <div>
+                <img src="../images/svg/user.svg" alt="user icon">
+            </div>
+            <div class="cart">
+                <img src="../images/svg/cart.svg" alt="cart icon">
+                <p id="cart-count" class="cart-number">0</p>
+            </div>
+        </div>
+    </header>
+    <div class="header__bottom">
+        <div class="container">
+            <nav>
+                <a href="">Квадроциклы</a>
+                <a href="">Катера</a>
+                <a href="">Квадроциклы</a>
+                <a href="">Лодки</a>
+                <a href="">Вездеходы</a>
+                <a href="">Снегоходы</a>
+                <a href="">Двигатели</a>
+                <a href="">Запчасти</a>
+            </nav>
+        </div>
+    </div>
+    <!-- section breadcrums -->
+    <section class="breadcrums container">
+        <div>Главная > Гидроциклы </div>
+    </section>
+    <!-- section filter -->
+     <section class="filters container">
+        <h2 class="filter-title">Гидроциклы</h2>
+        <div class="filter-button">
+            <select id="filter">
+                <option value=""selected>По популярности </option>
+                <option value="">По цене от низкой к высокой </option>
+                <option value="">По цене от высокой к низкой</option>
+                <option value="">По имени(а-я) </option>
+                <option value="">По имени(я-а) </option>
+
+            </select>
+        </div>
+     </section>
+     <!-- section category -->
+     <section class="category-2 container">
+        <div class="c-left"></div>
+        <div class="c-right"></div>
+     </section>     
+    <script src="../scripts/category.js"></script>
+</body>
+</html>
